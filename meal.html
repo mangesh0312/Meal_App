@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Meal App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='meal.css'>
+    <script src="https://kit.fontawesome.com/7f002381cd.js" crossorigin="anonymous"></script>
+    <script src='main.js'></script>
+</head>
+<body>
+    <a id="fav-button" href="#fav-meal" onclick="renderFavList()">Favourites</a>
+    <div id="whole-container">
+    <div class="container">
+        <h1>Are You Hungry? Find Meal Here</h1>
+        <div class="flex">
+            <form class="flex" id="submit">
+                <input type="text" id="search" placeholder="Type Meal here...">
+                <button class="search-btn" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+        <div class="result-heading"></div>
+        <div id="meals" class="meals"></div>
+        <div id="single-meal"></div>
+        
+    </div>
+    <div id="fav-meal"></div>
+</div>
+    </body>
+    <script src="meal.js"></script>
+</body>
+</html>
+
+</htm>
